@@ -4,9 +4,9 @@ const ContactSection = () => {
   return (
     <section id="contact" className="contact section">
       <div className="container section-title">
-        <h2>Contact Us</h2>
+        <h2>Contact</h2>
         <p>
-          <span>Get in</span> <span className="description-title">Touch With Us</span>
+          <span>Need Help? </span> <span className="description-title">Contact Us</span>
         </p>
       </div>
 
