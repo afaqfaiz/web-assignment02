@@ -3,6 +3,7 @@ import "./App.css"
 import Signin from './pages/page-signin'
 import Signup from './pages/pages-signup'
 import Blank from './pages/pages-blank'
+import GoogleMap from './pages/map-google'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,8 @@ function App() {
       <div className='sepration'></div>
       <Blank/>
       <div className='sepration'></div>
+      <GoogleMap/>
+
 
 
       </div>
