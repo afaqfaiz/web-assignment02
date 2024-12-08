@@ -1,4 +1,6 @@
 import React from "react";
+import heroimg from "../assets/img/hero-img.png";
+//Yummy\src\assets\img\hero-img.png
 
 const HeroSection = () => {
   return (
@@ -16,7 +18,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="col-lg-5 hero-img">
-            <img src="assets/img/hero-img.png" className="img-fluid animated" alt="Hero" />
+            <img src={heroimg} className="img-fluid animated" alt="Hero" />
           </div>
         </div>
       </div>
